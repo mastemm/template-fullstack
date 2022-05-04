@@ -1,14 +1,9 @@
-import Home from "@pages/Home";
+import Gallery from "./components/Gallery";
 
 import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <Home />
-      <p>coucou</p>
-    </div>
-  );
+  return <Gallery />;
 }
 
 export default App;
